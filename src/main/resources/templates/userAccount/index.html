@@ -41,7 +41,7 @@
             <div style="padding: 5px 5px;margin-top: 30px;">充值信息</div>
             <table class="gridtable">
                 <tr>
-                    <td width="50%">银行名称：民生银行</td>
+                    <td width="50%">银行名称：<span th:text="${paramMap.bankType}"></td>
                     <td>卡号：<span th:text="${userBind.bankNo}"></span></td>
                 </tr>
                 <tr>
@@ -65,7 +65,7 @@
 
 <div class="footer">
     <p class="hui">地址：北京市海淀区 电话：010-88888888</p>
-    <p class="hui">Copyright © 2020 北京尚融宝科技有限公司 All Rights Reserved  京ICP备15000000号</p>
+    <p class="hui">Copyright © 2020 北京众享金融科技有限公司 All Rights Reserved  京ICP备15000000号</p>
 </div>
 <script type="text/javascript">
 $(document).ready(function(){

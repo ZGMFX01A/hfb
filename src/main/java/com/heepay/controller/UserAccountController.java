@@ -64,6 +64,7 @@ public class UserAccountController {
 		userAccountService.recharge(paramMap);
 
 		Map<String, Object> resultMap = new HashMap<>();
+
 		resultMap.put("resultCode","0001");
 		resultMap.put("resultMsg","充值成功");
 		resultMap.put("agentBillNo",paramMap.get("agentBillNo"));
